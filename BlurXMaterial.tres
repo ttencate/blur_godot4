@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://cv2mrmyhkpw46"]
+
+[ext_resource type="Shader" path="res://Blur.gdshader" id="1_rvhc3"]
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1_rvhc3")
+shader_parameter/step = Vector2(1, 0)
+shader_parameter/radius = 8.0
